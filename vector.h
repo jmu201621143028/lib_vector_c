@@ -72,6 +72,7 @@ typedef struct {
 	void* vec;
 	int logicalLen;
 	int allocLength;
+	size_t elemsize;
 } vector;
 
 /** 
